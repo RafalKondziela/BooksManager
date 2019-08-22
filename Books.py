@@ -13,8 +13,8 @@ class Book:
     def show_Title(book):
         print(book.title)
 
-    def addBook(library, length,book):
-        library[int(length + 1)] = book
+    def addBook(self,library, length,book):
+        library[int(length)] = book.title
 
         
     
